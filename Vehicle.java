@@ -5,7 +5,7 @@ abstract class Vehicle {
     public Vehicle(String name) {
         this.name = name;
         this.currentSpeed = 0;
-        this.currentDirection = "N/A";
+        this.currentDirection = "No Direction";
     }
     public abstract void move(double speed, String direction);
     public abstract void steer(String direction);
